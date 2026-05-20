@@ -8,7 +8,7 @@ The main objective of this project is to build a smart OTT recommendation system
 
 The system analyzes movie genres and recommends the most relevant movies using TF-IDF Vectorization and Cosine Similarity.
 
-Machine Learning Concepts Used
+Machine Learning Concepts Used:
 Recommendation System
 Content-Based Filtering
 TF-IDF Vectorization
@@ -19,7 +19,8 @@ Google Colab
 Pandas
 NumPy
 Scikit-learn
- Dataset Used
+
+Dataset Used:
 
 MovieLens Dataset
 
@@ -38,7 +39,8 @@ Genre-based filtering
 Similar movie prediction
 Easy-to-use interface
 AI-powered recommendation logic
-Project Structure
+
+Project Structure:
 AI-OTT-Recommendation-System/
 │
 ├── AI_OTT_Recommendation_System.ipynb
@@ -47,15 +49,18 @@ AI-OTT-Recommendation-System/
 ├── README.md
 └── requirements.txt
 
-💡 How It Works
+
+ How It Works:
 Load MovieLens dataset
 Preprocess movie genre data
 Convert text data using TF-IDF
 Calculate similarity using cosine similarity
 Recommend top similar movies
-📸 Sample Output
 
+
+Sample Output:
 Input:
+
 
 Toy Story (1995)
 
@@ -66,7 +71,9 @@ A Bug's Life
 Toy Story 2
 Monsters Inc
 Finding Nemo
-📈 Future Enhancements
+
+📈 Future Enhancements:
+
 Add Streamlit web interface
 Add movie posters using TMDB API
 Add user login system
